@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_home) {
             // Handle the camera action
-        } else if (id == R.id.nav_callipers) {
+        } else if (id == R.id.nav_calipers) {
 
         } else if (id == R.id.nav_ym) {
 
