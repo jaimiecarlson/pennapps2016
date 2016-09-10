@@ -3,24 +3,28 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="Home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_callipers"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Calipers" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_ym"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Young's Modulus" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_material_properties"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Material Properties" />
+        <item
+            android:id="@+id/nav_math"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Math"/>
     </group>
 
-    <item android:title="Communicate">
+   <!-- <item android:title="Communicate">
         <menu>
             <item
                 android:id="@+id/nav_share"
@@ -31,6 +35,6 @@
                 android:icon="@drawable/ic_menu_send"
                 android:title="Send" />
         </menu>
-    </item>
+    </item> -->
 
 </menu>
